@@ -1,0 +1,21 @@
+name: "SakuraFrp"
+description: "SakuraFrp Tunnel for Home Assistant OS"
+version: "0.1.0"
+slug: "sakurafrp"
+init: false
+startup: services
+boot: auto
+host_network: true
+
+arch:
+  - amd64
+
+options:
+  token: ""
+  tunnel_ids: ""
+
+schema:
+  token: password
+  tunnel_ids: str
+
+image: "crpi-o5j7zwbfcp9p0115.cn-hangzhou.personal.cr.aliyuncs.com/ha_addons/sakurafrp"
