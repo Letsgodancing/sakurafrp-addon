@@ -18,4 +18,4 @@ schema:
   token: password
   tunnel_ids: str
 
-image: "crpi-o5j7zwbfcp9p0115.cn-hangzhou.personal.cr.aliyuncs.com/ha_addons/sakurafrp"
+image: "crpi-o5j7zwbfcp9p01t5.cn-hangzhou.personal.cr.aliyuncs.com/ha_addons/sakurafrp"
