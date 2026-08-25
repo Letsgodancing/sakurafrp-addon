@@ -1,6 +1,6 @@
-#!/usr/bin/with-contenv bashio
+#!/bin/sh
 
-bashio::log.info "SakuraFrp add-on started successfully."
+echo "[INFO] SakuraFrp add-on started successfully."
 
 while true; do
     sleep 3600
